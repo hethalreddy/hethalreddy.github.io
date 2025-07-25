@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Hethal Reddy</title>
   <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
 </head>
 <body>
   <header>
@@ -21,31 +21,57 @@
     </nav>
   </header>
 
-  <main class="container">
-    <section class="intro">
-      <h1>Hi, I'm Hethal 👋</h1>
-      <p>I’m a Computer Science student at the University of Michigan – Ann Arbor. I’m passionate about building accessible, thoughtful technology and learning how software can solve real-world problems.</p>
-      <a class="btn" href="projects.html">View My Work</a>
+  <main class="min-h-screen bg-white text-black px-6 py-10">
+    <!-- Hero Section -->
+    <section class="max-w-4xl mx-auto text-center mb-16">
+      <h1 class="text-4xl md:text-5xl font-bold mb-4">
+        Hethal Reddy
+      </h1>
+      <p class="text-lg md:text-xl text-gray-700">
+        Computer science student at UMich | Problem solver | Lover of all things data, logic, and creativity
+      </p>
+      <p class="mt-6 text-md md:text-lg text-gray-600">
+        I’m a senior at the University of Michigan – Ann Arbor studying Computer Science. I’ve worked on cybersecurity research at Bosch focused on protecting automotive systems and developed internal tools at Microsoft to optimize engineering workflows. I love exploring the intersection of data, logic, and creativity—whether it’s through AI, statistics, or systems programming.
+      </p>
     </section>
 
-    <section class="highlight">
-      <h2>Featured Projects</h2>
-      <div class="project-card">
-        <h3>Euchre Game in C++</h3>
-        <p>Implemented a full terminal-based Euchre game in C++ with AI and human player support, score tracking, and game logic.</p>
-        <a href="#">Learn More →</a>
-      </div>
+    <!-- Projects Section -->
+    <section class="max-w-5xl mx-auto">
+      <h2 class="text-3xl font-semibold mb-6 text-center">Projects</h2>
+      <div class="grid gap-6 md:grid-cols-2">
+        <!-- Project 1 -->
+        <div class="border rounded-2xl p-6 shadow-sm hover:shadow-md transition">
+          <h3 class="text-xl font-semibold mb-2">Descriptive Statistics & Hypothesis Testing</h3>
+          <p class="text-gray-700 text-sm">
+            A statistical analysis tool that computes descriptive statistics and performs two-sample hypothesis testing on data sets. Designed to work with real-world data and built with a focus on reliability, modularity, and statistical accuracy.
+          </p>
+        </div>
 
-      <div class="project-card">
-        <h3>Naive Bayes Classifier</h3>
-        <p>Created a text classifier to predict categories of forum posts using probabilistic models and C++ STL tools.</p>
-        <a href="#">Learn More →</a>
+        <!-- Project 2 -->
+        <div class="border rounded-2xl p-6 shadow-sm hover:shadow-md transition">
+          <h3 class="text-xl font-semibold mb-2">Euchre Card Game (C++)</h3>
+          <p class="text-gray-700 text-sm">
+            A fully playable terminal-based version of the Euchre card game. Features a complete game loop, user vs. AI gameplay, and well-structured C++ object-oriented design. Includes gameplay logic, card sorting, and turn-based mechanics.
+          </p>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="border rounded-2xl p-6 shadow-sm hover:shadow-md transition">
+          <h3 class="text-xl font-semibold mb-2">Naive Bayes Text Classifier</h3>
+          <p class="text-gray-700 text-sm">
+            Implemented a Naive Bayes classifier in C++ to predict discussion topics of forum posts. The classifier was trained on labeled data, performed tokenization, computed prior and conditional probabilities, and output the most probable class.
+          </p>
+        </div>
       </div>
     </section>
   </main>
 
   <footer>
-    <p>© 2025 Hethal Reddy · <a href="https://github.com/hethalreddy" target="_blank">GitHub</a> · <a href="https://www.linkedin.com/in/hethal-reddy/" target="_blank">LinkedIn</a></p>
+    <p>
+      © 2025 Hethal Reddy ·
+      <a href="https://github.com/hethalreddy" target="_blank" rel="noopener noreferrer">GitHub</a> ·
+      <a href="https://www.linkedin.com/in/hethal-reddy/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+    </p>
   </footer>
 </body>
 </html>
