@@ -22,48 +22,46 @@
   </header>
 
   <main class="min-h-screen bg-white text-black px-6 py-10">
-    <!-- Hero Section -->
-    <section class="max-w-4xl mx-auto text-center mb-16">
-      <h1 class="text-4xl md:text-5xl font-bold mb-4">
-        Hethal Reddy
-      </h1>
-      <p class="text-lg md:text-xl text-gray-700">
-        Computer science student at UMich | Problem solver | Lover of all things data, logic, and creativity
-      </p>
-      <p class="mt-6 text-md md:text-lg text-gray-600">
-        I’m a senior at the University of Michigan – Ann Arbor studying Computer Science. I’ve worked on cybersecurity research at Bosch focused on protecting automotive systems and developed internal tools at Microsoft to optimize engineering workflows. I love exploring the intersection of data, logic, and creativity—whether it’s through AI, statistics, or systems programming.
-      </p>
-    </section>
+    <div class="container">
+      <!-- Hero Section -->
+      <section class="intro text-center mb-16">
+        <h1 class="title">Hethal Reddy</h1>
+        <p class="tagline">
+          Computer science student at UMich | Problem solver | Lover of all things data, logic, and creativity
+        </p>
+        <p class="intro-text">
+          I’m a senior at the University of Michigan – Ann Arbor studying Computer Science. I’ve worked on cybersecurity research at Bosch focused on protecting automotive systems and developed internal tools at Microsoft to optimize engineering workflows. I love exploring the intersection of data, logic, and creativity—whether it’s through AI, statistics, or systems programming.
+        </p>
+        <a class="btn" href="projects.html">View My Work</a>
+      </section>
 
-    <!-- Projects Section -->
-    <section class="max-w-5xl mx-auto">
-      <h2 class="text-3xl font-semibold mb-6 text-center">Projects</h2>
-      <div class="grid gap-6 md:grid-cols-2">
-        <!-- Project 1 -->
-        <div class="border rounded-2xl p-6 shadow-sm hover:shadow-md transition">
-          <h3 class="text-xl font-semibold mb-2">Descriptive Statistics & Hypothesis Testing</h3>
-          <p class="text-gray-700 text-sm">
-            A statistical analysis tool that computes descriptive statistics and performs two-sample hypothesis testing on data sets. Designed to work with real-world data and built with a focus on reliability, modularity, and statistical accuracy.
-          </p>
-        </div>
+      <!-- Projects Section -->
+      <section class="highlight">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="projects-grid">
+          <div class="project-card">
+            <h3>Descriptive Statistics & Hypothesis Testing</h3>
+            <p>
+              A statistical analysis tool that computes descriptive statistics and performs two-sample hypothesis testing on data sets. Designed to work with real-world data and built with a focus on reliability, modularity, and statistical accuracy.
+            </p>
+          </div>
 
-        <!-- Project 2 -->
-        <div class="border rounded-2xl p-6 shadow-sm hover:shadow-md transition">
-          <h3 class="text-xl font-semibold mb-2">Euchre Card Game (C++)</h3>
-          <p class="text-gray-700 text-sm">
-            A fully playable terminal-based version of the Euchre card game. Features a complete game loop, user vs. AI gameplay, and well-structured C++ object-oriented design. Includes gameplay logic, card sorting, and turn-based mechanics.
-          </p>
-        </div>
+          <div class="project-card">
+            <h3>Euchre Card Game (C++)</h3>
+            <p>
+              A fully playable terminal-based version of the Euchre card game. Features a complete game loop, user vs. AI gameplay, and well-structured C++ object-oriented design. Includes gameplay logic, card sorting, and turn-based mechanics.
+            </p>
+          </div>
 
-        <!-- Project 3 -->
-        <div class="border rounded-2xl p-6 shadow-sm hover:shadow-md transition">
-          <h3 class="text-xl font-semibold mb-2">Naive Bayes Text Classifier</h3>
-          <p class="text-gray-700 text-sm">
-            Implemented a Naive Bayes classifier in C++ to predict discussion topics of forum posts. The classifier was trained on labeled data, performed tokenization, computed prior and conditional probabilities, and output the most probable class.
-          </p>
+          <div class="project-card">
+            <h3>Naive Bayes Text Classifier</h3>
+            <p>
+              Implemented a Naive Bayes classifier in C++ to predict discussion topics of forum posts. The classifier was trained on labeled data, performed tokenization, computed prior and conditional probabilities, and output the most probable class.
+            </p>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </div>
   </main>
 
   <footer>
