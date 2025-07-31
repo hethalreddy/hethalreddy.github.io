@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Contact | Hethal Reddy</title>
+  <title>Thank You | Hethal Reddy</title>
   <link rel="stylesheet" href="style.css" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
 </head>
@@ -16,33 +16,16 @@
         <li><a href="projects.html">Projects</a></li>
         <li><a href="blog.html">Blog</a></li>
         <li><a href="about.html">About</a></li>
-        <li><a href="contact.html" class="active">Contact</a></li>
+        <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
   </header>
 
   <main class="min-h-screen bg-white text-black px-6 py-10">
-    <div class="container">
-      <h1 class="section-title">Contact Me</h1>
-      <p class="intro-text text-center">Have a question, collaboration idea, or just want to say hi? I’d love to hear from you!</p>
-
-      <form action="https://formspree.io/f/movldlok" method="POST" class="contact-form">
-        <input type="text" name="_gotcha" style="display:none">
-
-        <!-- Redirect to custom thank-you page -->
-        <input type="hidden" name="_redirect" value="thankyou.html">
-
-        <label for="name">Name</label>
-        <input type="text" id="name" name="name" required />
-
-        <label for="email">Email</label>
-        <input type="email" id="email" name="_replyto" required />
-
-        <label for="message">Message</label>
-        <textarea id="message" name="message" rows="5" required></textarea>
-
-        <button type="submit" class="btn">Send Message</button>
-      </form>
+    <div class="container text-center">
+      <h1 class="section-title">Thank You!</h1>
+      <p class="intro-text">Your message has been sent successfully. I’ll get back to you as soon as I can!</p>
+      <a href="contact.html" class="btn" style="margin-top: 2rem;">Go Back to Contact Page</a>
     </div>
   </main>
 
